@@ -7,12 +7,32 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
-
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.page-header {
+  border-bottom: 1px solid #e7e9fc
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 .logo-header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -22,14 +42,24 @@ a {
   text-align: left;
   color: #4d5ae5;
   text-transform: uppercase;
+  
 }
-
+.header-link {
+  padding: 24px 0;
+  margin-right: 76px;
+}
 .header-logo,
 .logo-part {
   color: #2e2f42;
 }
-
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -37,12 +67,19 @@ a {
   text-align: left;
   color: #2e2f42;
 }
-
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -60,6 +97,10 @@ a {
 
 .hero-image {
   background: #2e2f42;
+  width: 1440px;
+height: 600px;
+top: 72px;
+gap: 0px;
 }
 
 .text-hero {
@@ -70,7 +111,11 @@ a {
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
-}
+  padding-top: 188px;
+  padding-left: 472px;
+  padding-right: 472px;
+
+ }
 
 .btn-order {
   background: #4d5ae5;
@@ -79,12 +124,30 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 636px;
+  margin-bottom: 188px;
+  margin-top: 48px;
 }
+
 .btn-order:hover,
 .btn-order:focus {
   background-color: #404bbf;
 }
-
+.container {
+  width: 1128px;
+  height: 104px;
+  top: 792px;
+  left: 156px;
+  }
+  
+.discription-item {
+  display: flex;
+  align-items: center;
+}
 .our-skills {
   font-size: 20px;
   font-weight: 500;
