@@ -99,8 +99,8 @@ a {
   background: #2e2f42;
   width: 1440px;
 height: 600px;
-top: 72px;
-gap: 0px;
+margin: 0 auto;
+
 }
 
 .text-hero {
@@ -128,7 +128,8 @@ gap: 0px;
   padding-right: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-left: 636px;
+  margin-left: 635px;
+  margin-right: 635px;
   margin-bottom: 188px;
   margin-top: 48px;
 }
@@ -137,7 +138,7 @@ gap: 0px;
 .btn-order:focus {
   background-color: #404bbf;
 }
-.container {
+.container-feature {
   width: 1128px;
   height: 104px;
   top: 792px;
