@@ -25,7 +25,7 @@ a {
 }
 .container {
   max-width: 1158px;
-  padding: 0 15px;
+  padding: 0;
   margin: 0 auto;
 }
 .page-header {
@@ -147,7 +147,6 @@ a {
   background-color: #404bbf;
 }
 .section-skills {
-  width: 1128px;
   height: 104px;
   margin-right: auto;
   margin-left: auto;
@@ -166,7 +165,6 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 
 .discription-item {
   display: flex;
@@ -223,13 +221,13 @@ a {
   margin-top: 72px;
   padding-bottom: 120px;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
 }
 .imeges-fone {
   background-color: #ffffff;
   width: 264px;
   height: 380px;
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name-text-name {
@@ -275,9 +273,8 @@ a {
 }
 .title-portfolio {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc; 
+  border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 .name-portfolio {
   font-size: 20px;
@@ -298,11 +295,10 @@ a {
   height: 312px;
   background: #2e2f42;
   margin: 0 auto;
-  }
+}
 .page-footer {
   padding: 100px 0;
 }
-
 
 .logo-footer-logo {
   font-family: "Raleway", sans-serif;
@@ -312,8 +308,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block; 
-  margin-bottom: 16px; 
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-part-footer {
@@ -326,5 +322,5 @@ a {
   letter-spacing: 0.02em;
   width: 264px;
   height: 72px;
-  max-width: 264px 
+  max-width: 264px;
 }
