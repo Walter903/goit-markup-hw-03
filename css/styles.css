@@ -186,7 +186,7 @@ a {
   color: #2e2f42;
   width: 264px;
   height: 24px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .text-our-skills {
@@ -205,6 +205,7 @@ a {
   width: 1440px;
   height: 732px;
   margin: 0 auto;
+  padding: 120px 0;
 }
 .our-team {
   min-width: 162px;
@@ -216,34 +217,44 @@ a {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .image-list {
   display: flex;
   align-items: center;
   margin-top: 72px;
   padding-bottom: 120px;
+  gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 .imeges-fone {
   background-color: #ffffff;
   width: 264px;
   height: 380px;
 }
-
+.name-text-name {
+  padding: 32px 0;
+}
 .name {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .text-name {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-container {
-  margin-top: 120px;
 }
 .portfolio {
   font-size: 36px;
@@ -253,11 +264,21 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
   font-weight: 700;
+  margin-bottom: 72px;
 }
 .portfolio-item {
   display: flex;
   align-items: center;
   margin-top: 72px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.title-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  border-top: none;
+
 }
 .name-portfolio {
   font-size: 20px;
@@ -266,6 +287,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-portfolio {
   line-height: 1.5;
@@ -277,11 +299,12 @@ a {
   height: 312px;
   background: #2e2f42;
   margin: 0 auto;
-}
-.page-footer {
-  width: 264px;
-  height: 112px;
+  }
+
+.text-container {
   padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 .logo-footer-logo {
   font-family: "Raleway", sans-serif;
@@ -291,6 +314,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block; 
+  margin-bottom: 16px; 
 }
 
 .logo-part-footer {
@@ -303,6 +328,5 @@ a {
   letter-spacing: 0.02em;
   width: 264px;
   height: 72px;
-  margin-top: 16px;
-  padding-bottom: 100px;
+  max-width: 264px 
 }
