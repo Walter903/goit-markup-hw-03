@@ -170,7 +170,9 @@ a {
   display: flex;
   align-items: center;
   gap: 24px;
-  height: 104px;
+  
+}
+.item-skills {
   width: calc((100% - 72px) / 4);
 }
 .our-skills {
@@ -195,7 +197,9 @@ a {
   width: 264px;
   height: 72px;
 }
-
+.img-photo {
+  display: block;
+}
 .section-team {
   background-color: #f4f4fd;
   width: 1440px;
@@ -270,6 +274,9 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.items-portfolio {
+  width: calc((100% - 48px) / 3);
 }
 .title-portfolio {
   padding: 32px 16px;
